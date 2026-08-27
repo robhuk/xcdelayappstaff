@@ -415,7 +415,7 @@
   }
 
   function emailContent(data) {
-    const subject = `Crew Delay Email for ${data.headcode} on ${data.dateDisplay}`;
+    const subject = `Crew Delay Email for ${data.headcode} on ${data.dateDisplay} - Delay of ${data.delay} minutes`;
     const body =
 `Hello due to a delay on ${data.headcode} Please book me off late today. My train was late due to ${data.reason}.
 My new book off time is ${data.newBookOff}
